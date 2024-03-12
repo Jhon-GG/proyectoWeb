@@ -15,7 +15,7 @@ body{
     display: flex;
     background: var(--color-body);
     width: 100%;
-    height: 20px;
+    height: 100px;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -25,9 +25,9 @@ body{
     color: var(--color-primary); 
     justify-content: flex-start;
     align-items: center;
-    height: 20px;
-    margin-left: 15px;
-    font-size: 4px;
+    height: 100px;
+    margin-left: 100px;
+    font-size: 20px;
     font-style: normal;
 }
 
@@ -37,14 +37,14 @@ body{
 
 .nav{
     display: flex;
-    margin-right: 10px; 
+    margin-right: 60px; 
     justify-content: flex-end;
     font-size: 20px;
     align-items: center;
     color: var(--color-secundary);
-    gap: 10px;
-    height: 20px;
-    font-size: 4px;
+    gap: 30px;
+    height: 100px;
+    font-size: 20px;
 }
 
 .nav p:hover{
@@ -71,7 +71,7 @@ body{
 
 .main1__title{
     display: flex;
-    margin-left: 33px;
+    margin-left: 153px;
 }
 
 .main1__content{
@@ -81,7 +81,7 @@ body{
 
 .main1__content h1{
     display: flex;
-    font-size: 16px;
+    font-size: 80px;
     font-weight: normal;
     color: var(--color-primary);
 }
@@ -97,21 +97,21 @@ body{
 .main1__content p{
     display: flex;
     font-weight: normal;
-    font-size: 6px;
+    font-size: 30px;
     color: var(--color-secundary);
 }
 
 .main1__content button{
     display: flex;
     width: 35%;
-    height: 7px;
-    font-size: 4px;
+    height: 28px;
+    font-size: 20px;
     color: var(--color-secundary);
     border: none;
     background: var(--color-primary);
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .main1__content button:hover{
@@ -128,8 +128,8 @@ body{
 
 .main1__img img{
     display: flex;
-    width: 85px;
-    height: 85px;
+    width: 420px;
+    height: 420px;
     margin-right: 30px;
 }
 
@@ -154,9 +154,9 @@ body{
 
 .aboutUs__img img{
     display: flex;
-    width: 85px;
-    height: 85px;
-    margin-left: 30px;
+    width: 420px;
+    height: 420px;
+    margin-left: 153px;
 }
 
 .aboutUs__title{
@@ -173,13 +173,13 @@ body{
 
 .about{
     color: var(--color-primary);
-    font-size: 5px;
+    font-size: 20px;
     margin-bottom: 2px;
 }
 
 .aboutUs__content h1{
     display: flex;
-    font-size: 10px;
+    font-size: 60px;
     font-weight: normal;
     color: var(--color-secundary);
 }
@@ -188,24 +188,24 @@ body{
 
 .aboutUs__content p{
     display: flex;
-    margin-top: 4px;
-    width:60px;
+    margin-top: 20px;
+    width: 400px;
     font-weight: normal;
-    font-size: 4px;
+    font-size: 20px;
     color: var(--color-secundary);
 }
 
 .aboutUs__content button{
     display: flex;
     width: 35%;
-    height: 7px;
-    font-size: 4px;
+    height: 28px;
+    font-size: 20px;
     color: var(--color-light);
     border: none;
     background: var(--color-primary);
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .aboutUs__content button:hover{
@@ -216,7 +216,7 @@ body{
 
 
 /* 
---------------------------------------------ABOUT US------------------------------------------------------ */
+--------------------------------------------FOOD MENU------------------------------------------------------ */
 
 .foodMenu{
     width: 100%;
@@ -234,26 +234,26 @@ body{
 .fooodMenu__title p{
     display: flex;
     color: var(--color-primary);
-    font-size: 4px;
-    margin-top: 3px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .fooodMenu__title h1{
     display: flex;
     color: var(--color-light);
-    font-size: 8px;
+    font-size: 50px;
     width: 100%;
     justify-content: center;
     font-weight: normal;
-    margin-top: 1px;
+    margin-top: 5px;
 }
 
 .foodContainer{
     display: flex;
-    margin-top: 12px;
+    margin-top: 42px;
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 20px;
 }
 
 .foodMenu__box1{
@@ -261,29 +261,36 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6px;
+    width: 300px;
+    height: 300px;
     background: var(--color-light);
+    transition: all 0.3s ease;
+}
+
+.foodMenu__box1:hover{
+    transform: scale(0.8);
 }
 
 .foodMenu__box1 img{
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 180px;
+    height: 180px;
 }
 
 .foodMenu__box1 h1{
-    font-size: 6px;
+    font-size: 20px;
     color: var(--color-third);
-    margin-top: 1px;
+    margin-top: 10px;
 }
 
 .foodMenu__box1 p{
-    font-size: 4px;
+    font-size: 20px;
     color: var(--color-third);
 }
 
 .foodMenu__box1 a{
-    font-size: 4px;
+    font-size: 18px;
+    margin-top: 10px;
     color: var(--color-primary);
 }
 
@@ -292,29 +299,36 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6px;
+    width: 300px;
+    height: 300px;
     background: var(--color-light);
+    transition: all 0.3s ease;
+}
+
+.foodMenu__box2:hover{
+    transform: scale(0.8);
 }
 
 .foodMenu__box2 img{
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 180px;
+    height: 180px;
 }
 
 .foodMenu__box2 h1{
-    font-size: 6px;
+    font-size: 20px;
     color: var(--color-third);
-    margin-top: 1px;
+    margin-top: 10px;
 }
 
 .foodMenu__box2 p{
-    font-size: 4px;
+    font-size: 20px;
     color: var(--color-third);
 }
 
 .foodMenu__box2 a{
-    font-size: 4px;
+    font-size: 18px;
+    margin-top: 10px;
     color: var(--color-primary);
 }
 
@@ -323,29 +337,36 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6px;
+    width: 300px;
+    height: 300px;
     background: var(--color-light);
+    transition: all 0.3s ease;
+}
+
+.foodMenu__box3:hover{
+    transform: scale(0.8);
 }
 
 .foodMenu__box3 img{
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 180px;
+    height: 180px;
 }
 
 .foodMenu__box3 h1{
-    font-size: 6px;
+    font-size: 20px;
     color: var(--color-third);
-    margin-top: 1px;
+    margin-top: 10px;
 }
 
 .foodMenu__box3 p{
-    font-size: 4px;
+    font-size: 20px;
     color: var(--color-third);
 }
 
 .foodMenu__box3 a{
-    font-size: 4px;
+    font-size: 18px;
+    margin-top: 10px;
     color: var(--color-primary);
 }
 
@@ -353,6 +374,136 @@ body{
 /* 
 --------------------------------------------SERVICES------------------------------------------------------ */
 
+.services{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.services__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.services__title p{
+    display: flex;
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.services__title h1{
+    display: flex;
+    color: var(--color-light);
+    font-size: 50px;
+    width: 100%;
+    justify-content: center;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.servicesContainer{
+    display: flex;
+    margin-top: 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.services__box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.services__box1:hover{
+    transform: scale(0.8);
+}
+
+.services__box1 img{
+    display: flex;
+    width: 180px;
+    height: 180px;
+}
+
+.services__box1 h1{
+    font-size: 20px;
+    color: var(--color-primary);
+    margin-top: 10px;
+}
+
+.services__box1 p{
+    font-size: 20px;
+    color: var(--color-secundary);
+}
+
+.services__box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.services__box2:hover{
+    transform: scale(0.8);
+}
+
+.services__box2 img{
+    display: flex;
+    width: 180px;
+    height: 180px;
+}
+
+.services__box2 h1{
+    font-size: 20px;
+    color: var(--color-primary);
+    margin-top: 10px;
+}
+
+.services__box2 p{
+    font-size: 20px;
+    color: var(--color-secundary);
+}
+
+.services__box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.services__box3:hover{
+    transform: scale(0.8);
+}
+
+.services__box3 img{
+    display: flex;
+    width: 180px;
+    height: 180px;
+}
+
+.services__box3 h1{
+    font-size: 20px;
+    color: var(--color-primary);
+    margin-top: 10px;
+}
+
+.services__box3 p{
+    font-size: 20px;
+    color: var(--color-secundary);
+}
 
 
 
