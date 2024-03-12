@@ -41,7 +41,7 @@ body{
     justify-content: flex-end;
     font-size: 20px;
     align-items: center;
-    color: var(--color-light);
+    color: var(--color-secundary);
     gap: 10px;
     height: 20px;
     font-size: 4px;
@@ -91,14 +91,14 @@ body{
     display: flex;
     margin-top: 6px;
     font-weight: normal;
-    color: var(--color-light);
+    color: var(--color-secundary);
 }
 
 .main1__content p{
     display: flex;
     font-weight: normal;
     font-size: 6px;
-    color: var(--color-light);
+    color: var(--color-secundary);
 }
 
 .main1__content button{
@@ -106,7 +106,7 @@ body{
     width: 35%;
     height: 7px;
     font-size: 4px;
-    color: var(--color-light);
+    color: var(--color-secundary);
     border: none;
     background: var(--color-primary);
     justify-content: center;
@@ -181,7 +181,7 @@ body{
     display: flex;
     font-size: 10px;
     font-weight: normal;
-    color: var(--color-light);
+    color: var(--color-secundary);
 }
 
 
@@ -192,7 +192,7 @@ body{
     width:60px;
     font-weight: normal;
     font-size: 4px;
-    color: var(--color-light);
+    color: var(--color-secundary);
 }
 
 .aboutUs__content button{
@@ -213,6 +213,148 @@ body{
     transition: 0.3s;
     cursor: pointer;
 }
+
+
+/* 
+--------------------------------------------ABOUT US------------------------------------------------------ */
+
+.foodMenu{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.fooodMenu__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.fooodMenu__title p{
+    display: flex;
+    color: var(--color-primary);
+    font-size: 4px;
+    margin-top: 3px;
+}
+
+.fooodMenu__title h1{
+    display: flex;
+    color: var(--color-light);
+    font-size: 8px;
+    width: 100%;
+    justify-content: center;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+.foodContainer{
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.foodMenu__box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background: var(--color-light);
+}
+
+.foodMenu__box1 img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.foodMenu__box1 h1{
+    font-size: 6px;
+    color: var(--color-third);
+    margin-top: 1px;
+}
+
+.foodMenu__box1 p{
+    font-size: 4px;
+    color: var(--color-third);
+}
+
+.foodMenu__box1 a{
+    font-size: 4px;
+    color: var(--color-primary);
+}
+
+.foodMenu__box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background: var(--color-light);
+}
+
+.foodMenu__box2 img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.foodMenu__box2 h1{
+    font-size: 6px;
+    color: var(--color-third);
+    margin-top: 1px;
+}
+
+.foodMenu__box2 p{
+    font-size: 4px;
+    color: var(--color-third);
+}
+
+.foodMenu__box2 a{
+    font-size: 4px;
+    color: var(--color-primary);
+}
+
+.foodMenu__box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background: var(--color-light);
+}
+
+.foodMenu__box3 img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.foodMenu__box3 h1{
+    font-size: 6px;
+    color: var(--color-third);
+    margin-top: 1px;
+}
+
+.foodMenu__box3 p{
+    font-size: 4px;
+    color: var(--color-third);
+}
+
+.foodMenu__box3 a{
+    font-size: 4px;
+    color: var(--color-primary);
+}
+
+
+/* 
+--------------------------------------------SERVICES------------------------------------------------------ */
+
+
+
 
 /* display: none;
 display: block; */
