@@ -64,7 +64,7 @@ body{
 @media(max-width:800px){
     .nav{
         display: none;
-        margin-right: -450px; 
+        margin-left: -200px; 
         justify-content: flex-end;
         font-size: 20px;
         align-items: center;
@@ -79,6 +79,9 @@ body{
     .toggle{
         width: 35px;
         height: 35px;
+        margin-right: 30px;
+        justify-content: center;
+        margin-top: 30px;
         display: block;
         cursor: pointer;
         background: url(../storage/img/menu.svg);
@@ -116,7 +119,7 @@ body{
         align-items: center;
         flex-direction: column;
         font-size: 1.2em;
-        background: var(--color-secundary);
+        background: var(--color-dark);
         z-index: 10;
     }
 }
@@ -743,6 +746,129 @@ body{
     cursor: pointer;
 }
 
+
+@media (max-width: 800px){
+    .fooodMenu__title{ 
+        display: flex; 
+        height: 1400px; 
+        align-items: center; 
+        flex-direction: column; 
+        border: 1px solid blue; 
+    } 
+ 
+ 
+    .fooodMenu__title{ 
+        display: flex; 
+        flex-direction: column; 
+        width: 80%;  
+    } 
+ 
+    .fooodMenu__title p { 
+        font-size: 20px;  
+    } 
+     
+    .fooodMenu__title h1 { 
+        text-align: center; 
+        font-size: 280%;  
+    } 
+ 
+    .foodMenu__box1{ 
+        display: flex; 
+        flex-direction: column; 
+        margin-top: 320px; 
+    } 
+ 
+    .foodMenu__box1, .foodMenu__box2, .foodMenu__box3 { 
+        width: 80%;  
+        padding: 20px; 
+    } 
+ 
+    .foodMenu__box1 img, .foodMenu__box2 img, .foodMenu__box3 img { 
+        width: 200px;  
+        height: 200px; 
+    } 
+ 
+    .foodMenu__box1 h1, .foodMenu__box2 h1, .foodMenu__box3 h1 { 
+        font-size: 25px;  
+    } 
+ 
+    .foodMenu__box1 p, .foodMenu__box2 p, .foodMenu__box3 p { 
+        font-size: 20px;  
+    } 
+ 
+    .foodMenu__box1 a, .foodMenu__box2 a, .foodMenu__box3 a { 
+        font-size: 20px;  
+    } 
+     
+ 
+    .services{ 
+        height: 1500px; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        border: 1px solid blueviolet; 
+    } 
+    .services__title{ 
+        display: flex; 
+        flex-direction: column; 
+        width: 80%;  
+    } 
+ 
+    .services__title p { 
+        font-size: 30px;  
+    } 
+     
+    .services__title h1 { 
+        text-align: center; 
+        font-size: 250%;  
+    } 
+ 
+    .servicesContainer{ 
+        display: flex; 
+        flex-direction: column; 
+        margin-top: 380px; 
+    } 
+ 
+    .learnMore{ 
+        display: flex; 
+        flex-direction: column; 
+        height: 400px; 
+        border: 1px solid orangered; 
+    } 
+     
+    .learnMore__content{ 
+        width: 80%; 
+        height: 200px; 
+    } 
+    .learnMore__content h1 { 
+        font-size: 25px; 
+    } 
+     
+    .learnMore__content button { 
+        font-size: 16px;  
+        margin-top: 30px;  
+    } 
+ 
+    .contact { 
+        flex-direction: column; /* Cambiar a dirección de columna para dispositivos móviles */ 
+        gap: 30px; /* Reducir el espacio entre los elementos */ 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        margin-left: 70px; 
+    } 
+     
+    .contact__box1, 
+    .contact__box2, 
+    .contact__box3, 
+    .contact__box4 { 
+        height: 10000px; /* Cambiar la altura a automático para adaptarse al contenido */ 
+    } 
+     
+    .contact__img img { 
+        margin-right: 0; /* Eliminar el margen derecho en dispositivos móviles */ 
+        margin-bottom: 10px; /* Añadir espacio inferior entre las imágenes y los textos */ 
+    }
+}
 
 /* display: none;
 display: block; */
