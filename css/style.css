@@ -79,7 +79,11 @@
     align-items: center;
     margin-top: 4%;
     padding-top: 1%;
-    border: solid var(--color-primary);
+    border-bottom: solid var(--color-primary);
+    border-top: solid var(--color-primary);
+    border-left: solid var(--color-primary);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 .content__Todo:hover{
@@ -162,4 +166,32 @@
 }
 
 
+/* --------------------------------------MAIN----------------------------------------------- */
+
+
+.main{
+    display: flex;
+    border: solid var(--color-primary);
+    width: 67%;
+    height: 90vh;
+    flex-direction: column;
+    margin-top: 2.2%;
+    border-radius: 4%;
+    overflow-y: scroll;
+}
+/* 
+.main::-webkit-scrollbar{
+    height: 8px;
+} */
+
+/* --------------------------------------MAIN TITLE----------------------------------------------- */
+
+.main__title{
+    display: flex;
+    border: solid blue;
+    width: 35%;
+    margin-top: 4%;
+    font-size: 25px;
+    margin-left: 4%;
+}
 
