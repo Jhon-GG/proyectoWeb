@@ -624,7 +624,7 @@ body{
 }
 
 .contact__box1 p:hover{
-    color: var(--color-opacity);
+    color: var(--color-primary);
     cursor: pointer;
 }
 
@@ -652,7 +652,7 @@ body{
 }
 
 .contact__box2 p:hover{
-    color: var(--color-opacity);
+    color: var(--color-primary);
     cursor: pointer;
 }
 
@@ -680,7 +680,7 @@ body{
 }
 
 .contact__box3 p:hover{
-    color: var(--color-opacity);
+    color: var(--color-primary);
     cursor: pointer;
 }
 .contact__box4{
