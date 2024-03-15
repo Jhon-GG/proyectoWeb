@@ -415,3 +415,7 @@
     transition: 0.2s;
     transform: scale(1.1);
 }
+
+.menos:hover{
+    cursor: pointer;
+}
