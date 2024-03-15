@@ -373,6 +373,10 @@
     transition: all 0.3s ease;
 }
 
+.carritos__boton1 a{
+    text-decoration: none;
+}
+
 .carritos__boton1:hover{
     cursor: pointer;
     transition: 0.2s;
