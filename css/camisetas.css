@@ -1,0 +1,301 @@
+@import url(camisetasVariables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anta";
+}
+
+.contenedor__Main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.aside{
+    display: flex;
+    width: 30%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.aside__title{
+    height: 9%;
+    width: 63%;
+    margin-top: 12%;
+    margin-left: 10%;
+    font-size: 30px; 
+    color: var(--color-primary);
+}
+
+/* --------------------------------------CONTENT----------------------------------------------- */
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__Arriba{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.content__text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4%;
+    padding-top: 1%;
+}
+
+.content__text:hover{
+    cursor: pointer;
+    background: var(--color-opacity);
+
+}
+
+.content__text img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.content__text a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 5%;
+    color: var(--color-dark)
+}
+
+
+.content__Todo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4%;
+    padding-top: 1%;
+    border-bottom: solid var(--color-primary);
+    border-top: solid var(--color-primary);
+    border-left: solid var(--color-primary);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.content__Todo:hover{
+    cursor: pointer;
+    background: var(--color-opacity);
+}
+
+.content__Todo img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.content__Todo a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 5%;
+    color: var(--color-dark)
+}
+
+/* --------------------------------------CARRITO----------------------------------------------- */
+
+.carrito{
+    display: flex;
+}
+
+.carrito__text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-left: 10%;
+    align-items: center;
+    width: 100%;
+}
+
+.carrito__text:hover{
+    cursor: pointer;
+    background: var(--color-opacity);
+}
+
+.carrito__text img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.carrito__text a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 5%;
+    color: var(--color-dark);
+}
+
+.tres{
+    display: flex;
+    padding-left: 150px;
+}
+
+/* --------------------------------------COPYRIGHT----------------------------------------------- */
+
+
+.sello{
+    display: flex;
+}
+
+.sello__text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-left: 10%;
+    align-items: center;
+    width: 100%;
+}
+
+.sello__text img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.sello__text p{
+    display: flex;
+    margin-left: 5%;
+}
+
+
+/* --------------------------------------MAIN----------------------------------------------- */
+
+
+.main{
+    display: flex;
+    border: solid var(--color-primary);
+    width: 67%;
+    height: 90vh;
+    flex-direction: column;
+    margin-top: 2.2%;
+    border-radius: 4%;
+}
+
+/* .main::-webkit-scrollbar{
+    height: 80px;
+} */
+
+/* --------------------------------------MAIN ARRIBA----------------------------------------------- */
+
+.main__arriba{
+    display: flex;
+    width: 100%;
+    height:35vh;
+    gap: 20px;
+}
+
+/* --------------------------------------MAIN TITLE----------------------------------------------- */
+
+.main__title{
+    display: flex;
+    width: 35%;
+    margin-top: 4%;
+    font-size: 25px;
+    margin-left: 4%;
+    color: var(--color-primary);
+}
+
+/* --------------------------------------MAIN IMG 1----------------------------------------------- */
+
+.main__images{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    height: 70vh;
+    margin-top: 2%;
+    margin-left: 4%;
+    overflow-y: scroll;
+}
+
+/* --------------------------------------MAIN SIGUIENTE1----------------------------------------------- */
+
+.main__siguiente1{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 35vh;
+    gap: 20px;
+}
+
+
+/* --------------------------------------MAIN IMG14----------------------------------------------- */
+
+.main__img14{
+    display: flex;
+    flex-direction: column;
+    border: solid var(--color-primary);
+    width: 23%;
+    height: 100%;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__img14 img{
+    display: flex;
+    width: 70%;
+    height: 60%;
+}
+
+.main__img14__texto{
+    display: flex;
+    width: 100%;
+    height: 67px;
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: 20px;
+    border-top: solid var(--color-primary);
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    background: var(--color-opacity);
+}
+
+.main__img14__texto p{
+    display: flex;
+    margin-left: 12px;
+    margin-top: 7px;
+}
+
+.main__img14__boton{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+.main__img14__boton p{
+    display: flex;
+    font-size: 14px;
+}
+
+.main__img14__boton button{
+    display: flex;
+    border: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 12px;
+    font-size: 13px;
+    background: var(--color-primary);
+    color: var(--color-light);
+    transition: all 0.3s ease;
+}
+
+.main__img14__boton button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
