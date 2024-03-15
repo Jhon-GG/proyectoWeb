@@ -67,6 +67,7 @@
     display: flex;
     text-decoration: none;
     margin-left: 5%;
+    width: 100%;
     color: var(--color-dark)
 }
 
@@ -99,7 +100,8 @@
     display: flex;
     text-decoration: none;
     margin-left: 5%;
-    color: var(--color-dark)
+    color: var(--color-dark);
+    width: 100%;
 }
 
 /* --------------------------------------CARRITO----------------------------------------------- */
@@ -133,6 +135,7 @@
     text-decoration: none;
     margin-left: 5%;
     color: var(--color-dark);
+    width: 100%;
 }
 
 .tres{
